@@ -92,4 +92,25 @@ color: white;
 text-align: center;
 padding: 20px;
 }
+.about,
+.learn,
+.articles {
+max-width: 900px;
+margin: 50px auto;
+padding: 0 20px;
+}
+
+.about h2,
+.learn h2,
+.articles h2 {
+color: #2f4f3f;
+}
+
+.learn ul {
+line-height: 2;
+}
+
+.articles article {
+margin-bottom: 20px;
+}
 
