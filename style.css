@@ -116,3 +116,28 @@ footer {
 .articles article {
     margin-bottom: 20px;
 }
+.about-page {
+    max-width: 950px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.about-card {
+    background: white;
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    line-height: 1.8;
+}
+
+.about-card h2 {
+    color: #c95f89;
+    font-size: 36px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.about-card p {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
