@@ -3,6 +3,47 @@ body {
     font-family: Arial, sans-serif;
     background: #fff7fa;
     color: #2d2d2d;
+header {
+    background: #f3b6c8;
+    padding: 15px 30px;
+}
+
+.top-bar {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.brand img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.brand-text h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.brand-text p {
+    margin: 3px 0 0;
+    font-size: 14px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
 }
 
 header {
