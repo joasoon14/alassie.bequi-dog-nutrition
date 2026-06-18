@@ -3,8 +3,13 @@ body {
     font-family: Arial, sans-serif;
     background: #fff7fa;
     color: #2d2d2d;
+}
+
+/* HEADER */
+
 header {
     background: #f3b6c8;
+    color: #3a2a2f;
     padding: 15px 30px;
 }
 
@@ -14,6 +19,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 30px;
 }
 
 .brand {
@@ -23,8 +29,8 @@ header {
 }
 
 .brand img {
-    width: 80px;
-    height: 80px;
+    width: 78px;
+    height: 78px;
     object-fit: cover;
     border-radius: 50%;
 }
@@ -41,56 +47,51 @@ header {
 
 nav {
     display: flex;
-    gap: 20px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 18px;
     flex-wrap: wrap;
-}
-}
-
-header {
-    background: #f3b6c8;
-    color: #3a2a2f;
-    padding: 30px 20px;
-    text-align: center;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 34px;
-}
-
-header p {
-    margin: 10px 0 20px;
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 12px;
 }
 
 nav a {
     color: #3a2a2f;
     text-decoration: none;
     font-weight: bold;
+    font-size: 15px;
 }
 
 nav a:hover {
     text-decoration: underline;
 }
 
+/* HERO */
+
 .hero {
     max-width: 900px;
-    margin: 50px auto;
-    padding: 40px 20px;
+    margin: 45px auto;
+    padding: 35px 20px;
     text-align: center;
     background: #ffe6ee;
     border-radius: 18px;
 }
 
+.hero-image {
+    max-width: 780px;
+    margin: 0 auto 30px;
+}
+
+.hero-image img {
+    width: 100%;
+    max-height: 420px;
+    object-fit: cover;
+    border-radius: 18px;
+    display: block;
+}
+
 .hero h2 {
-    font-size: 42px;
+    font-size: 40px;
     margin-bottom: 15px;
+    color: #c95f89;
 }
 
 .hero p {
@@ -98,16 +99,7 @@ nav a:hover {
     line-height: 1.6;
 }
 
-.button {
-    display: inline-block;
-    margin-top: 20px;
-    background: #d86f9a;
-    color: white;
-    padding: 14px 24px;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: bold;
-}
+/* CARDS */
 
 .cards {
     max-width: 1100px;
@@ -127,36 +119,28 @@ article {
 
 article h3 {
     color: #c95f89;
+    margin-top: 0;
 }
 
-footer {
-    background: #f3b6c8;
-    color: #3a2a2f;
-    text-align: center;
-    padding: 20px;
-}
+/* EXPLORE SECTION */
 
-.about,
-.learn,
 .articles {
     max-width: 900px;
     margin: 50px auto;
     padding: 0 20px;
 }
 
-.about h2,
-.learn h2,
 .articles h2 {
     color: #c95f89;
-}
-
-.learn ul {
-    line-height: 2;
+    text-align: center;
 }
 
 .articles article {
     margin-bottom: 20px;
 }
+
+/* CONTENT PAGES */
+
 .about-page {
     max-width: 950px;
     margin: 50px auto;
@@ -180,16 +164,6 @@ footer {
     color: #d86f9a;
 }
 
-.about-card p {
-    font-size: 18px;
-    margin-bottom: 24px;
-}
-
-.nutrition-fact-box p {
-    margin-top: 8px;
-    margin-bottom: 0;
-}
-
 .about-card h3 {
     color: #d86f9a;
     margin-top: 40px;
@@ -197,6 +171,36 @@ footer {
     font-size: 28px;
 }
 
+.about-card p {
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
 .about-card ul {
     line-height: 1.8;
+}
+
+/* INFO BOXES */
+
+.nutrition-fact-box {
+    background: #ffe6ee;
+    border-left: 6px solid #d86f9a;
+    padding: 20px;
+    margin: 30px 0;
+    border-radius: 12px;
+}
+
+.nutrition-fact-box p {
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+/* FOOTER */
+
+footer {
+    background: #f3b6c8;
+    color: #3a2a2f;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
 }
